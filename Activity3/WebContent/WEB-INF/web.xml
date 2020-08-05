@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>Activity3</display-name>
+	<welcome-file-list>
+		<welcome-file>login-page.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<description></description>
+		<display-name>MainServlet</display-name>
+		<servlet-name>MainServlet</servlet-name>
+		<servlet-class>com.dxc.web.MainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/MainServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>LoginServlet</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.dxc.web.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>ManageEmployee</display-name>
+		<servlet-name>ManageEmployee</servlet-name>
+		<servlet-class>com.dxc.web.ManageEmployee</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ManageEmployee</servlet-name>
+		<url-pattern>/ManageEmployee</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>ManageEmploye</display-name>
+		<servlet-name>ManageEmploye</servlet-name>
+		<servlet-class>com.dxc.web.ManageEmploye</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ManageEmploye</servlet-name>
+		<url-pattern>/ManageEmploye</url-pattern>
+	</servlet-mapping>
+</web-app>
